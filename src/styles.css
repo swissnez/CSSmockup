@@ -1,0 +1,95 @@
+body {
+  font-family: 'Titillium Web', sans-serif;
+  
+  background: url("https://picsum.photos/id/1018/3914/2935"); 
+  background-size: cover;
+  background-repeat: no-repeat;
+  z-index: -1;
+  /* opacity: 0.9; */
+  background-color: rgb(187, 221, 221,0.9);
+  color: rgb(34, 122, 103);
+}
+
+.red {
+  height: 100px;
+  width: 100px;
+  background-color: rgb(192, 120, 120);
+  display: inline-block;
+  position: absolute;
+  left: 200px;
+  top:200px;
+}
+
+.yellow {
+  height: 100px;
+  width: 100px;
+  background-color: rgb(230, 230, 154);
+  display: inline-block;
+  position: absolute;
+  left: 0px;
+  top:0px;
+
+}
+
+.blue {
+  height: 100px;
+  width: 100px;
+  background-color: rgba(8, 8, 236,0.1);
+  display: inline-block;
+  position: absolute;
+  left: 100px;
+  top:100px;
+}
+
+.box {
+  display: flex;
+  justify-content: space-between;;
+}
+
+.container {
+  margin: 400px auto 10px;
+}
+
+p {
+  background-color: rgba(243, 235, 235, 0.8);
+  margin: 20px auto 20px;
+  padding: 50px 50px 50px 50px ;
+  border-radius: 20px;
+  box-shadow: 2px 2px 10px rgba(82, 75, 75, 0.2);
+  width: 33%;
+  display: inline-block;
+  margin: 2rem;
+  line-height: 40px;
+}
+
+.Lorem {
+font-size: 2rem;
+padding: 0 50px 100px 0;
+margin: 0 0 3rem 0;
+}
+
+.p-image {
+  width: 20%;
+  height: 20%;
+  border-radius: 60px;
+  box-shadow: 4px 7px 20px rgb(19 218 218 / 64%);
+}
+
+.div-absol {
+  position: relative
+}
+
+.div-absol-pic {
+  position: absolute;
+  height: 100px;
+  width: 100px;
+  right: 30px;
+}
+
+header {
+  background-color: rgb(34, 122, 103);
+  margin: auto -16px;
+  padding: 16px 32px;
+  box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.3);
+  position: fixed;
+}
